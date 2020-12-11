@@ -1,0 +1,54 @@
+[
+    {
+      "image": "./assets/best-selling-products/1.jpg",
+      "price": 159,
+      "currency": "USD",
+      "variations": ["orange", "white"],
+      "title": "Dreamy Love",
+      "rating": 3,
+      "new": false,
+      "sale": false
+    },
+    {
+      "image": "./assets/best-selling-products/1.jpg",
+      "price": 152,
+      "currency": "USD",
+      "variations": ["white", "red"],
+      "title": "Divine Love",
+      "rating": 3,
+      "new": true,
+      "sale": false
+    },
+   
+    {
+      "image": "./assets/best-selling-products/1.jpg",
+      "price": 95,
+      "currency": "USD",
+      "variations": ["violet", "yellow"],
+      "title": "Orchid N Roses",
+      "rating": 3,
+      "new": false,
+      "sale": true
+    },
+    {
+      "image": "./assets/best-selling-products/1.jpg",
+      "price": 65,
+      "currency": "USD",
+      "variations": ["yellow", "brown"],
+      "title": "Charismatic Elonr",
+      "rating": 4,
+      "new": true,
+      "sale": true
+    },
+    {
+      "image": "./assets/best-selling-products/1.jpg",
+      "price": 150,
+      "currency": "USD",
+      "variations": ["orange", "white"],
+      "title": "Dreamy Love",
+      "rating": 3,
+      "new": false,
+      "sale": false
+    }
+
+  ]

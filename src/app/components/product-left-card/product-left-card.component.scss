@@ -1,0 +1,30 @@
+img{
+    margin: 0 auto;
+    width:100%;
+}
+.card{
+    position: relative;
+    &.new:before{
+        content: 'NEW';
+        background: green;
+        padding: 10px;
+        position:absolute;
+        top:5px;
+        left: 5px;
+        z-index:1000;
+        color: #fff;
+        font-size: 12px;
+    }
+    &.sale:after{
+        content: 'SALE';
+        background: red;
+        padding: 10px;
+        position:absolute;
+        top:5px;
+        right: 5px;
+        z-index:1000;
+        color:#fff;
+        font-size: 12px;
+
+    }
+}

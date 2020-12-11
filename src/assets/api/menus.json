@@ -1,0 +1,41 @@
+[
+    {
+        "text": "Home",
+        "slug" : "",
+        "children":[]
+    },
+    {
+        "text": "Shop",
+        "children" : [
+            {
+                "text": "Mens Fashion",
+                "slug" : "shop/mens-fashion"
+            }
+        ]
+    },
+    {
+        "text": "Products",
+        "children" : [
+            {
+                "text": "Shirts",
+                "slug" : "products/shirts"
+            },
+            {
+                "text": "Sarees",
+                "slug" : "products/sarees"
+            }
+        ]
+    },{
+        "text": "Features",
+        "slug" : "features",
+        "children":[]
+    },{
+        "text": "Pages",
+        "slug" : "pages",
+        "children":[]
+    },{
+        "text": "Blogs",
+        "slug" : "blogs",
+        "children":[]
+    }
+]

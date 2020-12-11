@@ -1,0 +1,17 @@
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h4 class="text-center">Trending Items</h4>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" *ngFor="let item of items; let i = index">
+            <app-product-top-card [item]="items[i]"></app-product-top-card>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white primarynav">
+  <div class="container">
+    <button class="btn btn-link btn-toggle"><span class="material-icons menu-toggler">menu</span></button>
+    <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end align-items-center" id="navbarNav">
+      <ul class="navbar-nav ">
+        <ng-container *ngFor="let menu of menus">
+          <li class="nav-item dropdown" *ngIf="menu?.children?.length">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{menu.text}}
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li *ngFor="let children of menu.children"><a class="dropdown-item"
+                  routerLink="children.slug">{{children.text}}</a></li>
+            </ul>
+          </li>
+          <li class="nav-item" *ngIf="!menu?.children?.length">
+            <a class="nav-link" [routerLink]="menu.slug" role="button">
+              {{menu.text}}
+            </a>
+          </li>
+        </ng-container>
+      </ul>
+    </div>
+  </div>
+</nav>

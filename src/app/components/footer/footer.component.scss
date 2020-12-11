@@ -1,0 +1,21 @@
+footer {
+  background: #f9f9f9;
+  .newsletter {
+    padding: 10px 0;
+    .btn-subscribe {
+      background-color: #fa869b;
+      color: #fff;
+      background: #fa869b;
+    }
+  }
+  .menus{
+      .menu{
+          li{
+              background-color: transparent;
+              border-width: 0;
+              font-size:14px;
+                  padding-left: 0;
+          }
+      }
+  }
+}
